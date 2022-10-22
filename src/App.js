@@ -96,7 +96,7 @@ function App() {
       console.log('Email verification sent.')
     })
   }
-
+  // handle the password
   const handlePasswordReset = () =>{
     sendPasswordResetEmail(auth, email)
     .then(() =>{
